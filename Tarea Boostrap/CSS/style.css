@@ -1,0 +1,21 @@
+header {
+    background-color: #66ffff;
+    border: 2px solid #df00d7;
+}
+
+nav {
+    background-color: fuchsia;
+}
+
+article {
+    background-color: #f5a9e1;
+}
+
+aside {
+    background-color: #f7819f;
+}
+
+footer {
+    background-color: #cecef6;
+    border: 2px solid #2f34fd;
+}
