@@ -26,6 +26,7 @@ División*/
 var x = 5;
 var y = 3;
 
+
 console.log("La suma de x + y es igual a ",
     x + y)
 console.log("La resta de x - y es igual a ",
@@ -34,3 +35,21 @@ console.log("La multiplicación de x * y es igual a ",
     x * y)
 console.log("La división de x / y es igual a ",
     x / y)
+
+// Versión 2
+var x = 5;
+var y = 3;
+
+var additionResult = x + y;
+var substrationResult = x - y;
+var productResult = x * y;
+var divisionResult = x / y;
+
+console.log("La suma de x + y es igual a ",
+    additionResult)
+console.log("La resta de x - y es igual a ",
+    substrationResult)
+console.log("La multiplicación de x * y es igual a ",
+    productResult)
+console.log("La división de x / y es igual a ",
+    divisionResult)
