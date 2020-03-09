@@ -89,9 +89,9 @@ console.log(`Hola, soy ${name} y tengo ${age} años`)
 
 var text = "Cada estudiante tiene su ritmo, cada estudiante tiene su talento, y cada estudiante complementa al estudiante que tiene a su lado"
 var repetWord
+var newText
 repetWord = text.match(/estudiante/g).length
 console.log(`La palabra estudiante se repite: ${repetWord}
     veces en el texto`)
-var text2
 newText = text.replace(/estudiante/g, "koder")
 console.log(newText)
