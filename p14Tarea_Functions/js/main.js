@@ -70,10 +70,11 @@ const printNamesInitials = arrayNames => {
   };
   
 const countName = (num) => {
- for (i=0; i < num; i++ ){
-     let name =  prompt("Ingresa tu nombre")
+    let newArrayName=[];
+    for (i=0; i < num; i++ ){
+    let name =  prompt("Ingresa tu nombre")
      newArrayName.push(name)
     console.log(newArrayName)
  }
+ printNamesInitials(newArrayName)
 }
-getInitials(newArrayName) */
