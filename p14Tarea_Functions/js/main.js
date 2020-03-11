@@ -78,3 +78,20 @@ const countName = (num) => {
  }
  printNamesInitials(newArrayName)
 }
+
+/*
+Diferencia entre let y var:
+Var = tiene ambito global. (Ejem: Leo y coordinadores.)
+Se queda guardada en la memoria del navegador.
+Si se puede redefinir y redeclarar.
+
+let = sólo vive en el bloque de código en donde esta definida. (koder7g)
+La variable muere cuando termina el ciclo de función.
+No se puede redeclarar pero si redefinir.
+
+Declarar: es darle un espacio en memoria.
+Definir: asignarle un valor al espacio de memoria.
+
+TAREA DAVID: Investigar que es mejor práctica utilizar: var, let o const en el ámbito local.
+
+ */
