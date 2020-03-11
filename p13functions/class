@@ -1,0 +1,83 @@
+/* /* var bmentorsName=[
+    "Brenda González",
+    "Shalem Solis",
+    "Jorge Ochoa",
+    "Rurick Maqueo",
+    "Alex Cruz",
+    "Daniel Ortega"
+]
+
+var amentorsName =[
+    "Veronica Nemecio",
+    "Carolina Gayoso",
+    "David Moranchel",
+    "Carlos Silva",
+    "Michael Villalba",
+    "Israel Salinas"
+]
+
+
+//Iterar dentro del array.
+//Por cada item, obtener el nombre de cada bmentor.
+//Extraer la primer letra de cada palabra del nombre
+//Concatenar el contenido de cada item con las inciales, separadas por un punto
+//Mostar en consola el reultado.
+//output: "Brenda Gonzélez, B.G."
+
+ var initials = "";
+
+const getInitials = (word) => initials += word.charAr(0) + ". "
+
+bmentorsName.forEach((name)=> {
+    var dividedName =name.split(" ");
+    dividedName.forEach  (getInitials)
+    console.log(`${name}, ${initials}`)
+    initials = "";
+  
+ } )
+
+const printSomeText = (textToPrint) => {
+    console.log (textToPrint)
+}
+
+bmentorsName.forEach( printSomeText)
+
+
+const printNameInitials = (arrayToPrint) =>{
+    arrayToPrint.array.forEach(element => {
+        
+    });
+}
+
+const printFullName = (name, lastname) => console.log(`Tu nombre completo es: ${name} ${lastname}`) */
+
+/* cont twoNumerAdditions = (number1, number2) =>  {
+    alert(`la suma de tus valores es: ${number1 + number2})
+}
+
+var numberArray = [
+    13,
+    23,
+    1,
+    56,
+    78
+];
+
+var otherNumberArray = [
+    54,
+    32,
+    45,
+    12,
+    9
+]
+
+const getNumbersAverage = (arrayToComputo) => {
+    let total = 0;
+    let countNumbers = 0;
+    arrayToComputo.forEach( (item) => {
+        total +=item
+        countNumbers += 1;
+    })
+    let average = total/countNumbers;
+    console.log(`El promedio de este array es: ${average}`)
+} */

@@ -40,12 +40,3 @@ koderColletion.forEach(item => {
     findArray = subarregloItem.slice(0, 1);
     console.log(findArray[0])  
 });
-
-    /**
-    
-     koderColletion.forEach(element => {
-        subarregloItem = item.split(" ")
-        findArray = subarregloItem.slice(0, 1);
-        console.log(findArray[0])
-    });
-     */
