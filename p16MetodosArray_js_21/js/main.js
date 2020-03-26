@@ -217,7 +217,7 @@ const products = [
  })
  */
   
-//Ejercicios:
+//Práctica 21:
 
 // dividir en dos arreglos chip y beer
 const chip = products.filter((product)=>{

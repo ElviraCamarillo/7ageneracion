@@ -53,6 +53,7 @@ var kodersDb = [
     }
   ]
   
+  //Práctica 22:
   // 1. Obtener a todos los koders cuyas practicas entregadas (deliveredPractices) sea menor a 10
 
   /* const arrDeliveredPractices = kodersDb.filter((koder) => {

@@ -6,16 +6,20 @@
 
 
 const saveKoderToDb = (koderObject) =>{
+    //Estamos creando una instancia del objeto XMLHttpRequest
     let xhttp = new XMLHttpRequest();
 
+    //Creamos lo que sucederá cuando la petición se cumpla.
     xhttp.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
             console.log(this.responseText)
             printKoders()
         }
     }
+    //abrimos la petición.
     xhttp.open("POST","https://javascript-ajax-d0ce6.firebaseio.com/elvira/koders.json",true)
 
+    //Enviamos la petición.
     xhttp.send(JSON.stringify(koderObject))
     
 
@@ -30,8 +34,6 @@ const getKoderData = () =>{
     saveKoderToDb(koderObject)
     
 }
-
-
 
 
 //Cada que registremos un nuevo koder, mostrar la lista completa de koders en una tabla. Cada koder dentro de esa tabla debe contar con un botón para eliminar

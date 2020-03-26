@@ -18,7 +18,7 @@ var amentorsNames = [
     "Carlos Ramos"
 ]
 
-//función que me permita ingresar el nombre de un array, y contar cuántos items tiene, si el array no existe, debe enviar un prompt que diga "tu array no existe"
+//Práctica 15: función que me permita ingresar el nombre de un array, y contar cuántos items tiene, si el array no existe, debe enviar un prompt que diga "tu array no existe"
 
 const arraySelector = (array) => {
     if (array == amentorsNames | array == bmentorsNames) {
@@ -29,7 +29,7 @@ const arraySelector = (array) => {
     }
     }
 
-//función que reciba un array, e imprima los elementos de ese array en orden alfábetico y con la primer palabra en uppercase
+//Práctica 16: función que reciba un array, e imprima los elementos de ese array en orden alfábetico y con la primer palabra en uppercase
 
 const ordenArray = (array) =>{
     array = array.sort() 
@@ -42,7 +42,7 @@ const ordenArray = (array) =>{
 
   
  
-  //Función que reciba un array, un número, y debe de imprimir cada uno de los items del array con los caracteres limitados al número ingresado
+  //Práctica 17: xFunción que reciba un array, un número, y debe de imprimir cada uno de los items del array con los caracteres limitados al número ingresado
   
   const slicedArray = (array, num) =>{
     for(i=0;i < array.length; i++){
@@ -54,7 +54,7 @@ const ordenArray = (array) =>{
 
 
 
-//función que reciba una cantidad (número), este número será la cantidad de veces que se solicite al usuario mediante un prompt algún nombre, todos los nombres se deben almacenar en una colección y al finalizar me debe mostrar la lista de nombres, con sus respectivas iniciales
+//Práctica 18: función que reciba una cantidad (número), este número será la cantidad de veces que se solicite al usuario mediante un prompt algún nombre, todos los nombres se deben almacenar en una colección y al finalizar me debe mostrar la lista de nombres, con sus respectivas iniciales
 
 
 var initials = ""; // ambito global ya que se utiliza en ambas funciones

@@ -1,27 +1,27 @@
-//Practica 1
+//Practica 6
 
 //Obtener el nombre completo del usuario e indicarle cuántos caracteres tiene sus nombre.
 
 
-//Practica 2
+//Practica 7
 
 //Obtener el nombre completo del usuario.
 //Contar cuántos caracteres tiene.
 //Si su nombre tiene menos de 15 caracteres, indicarle mediante un mensaje que su nombre es muy corto
 //Si tiene más de 15 caracteres, indicarle mediante un mensaje que su nombre es muy largo
 
-//Practica 3
+//Practica 8
 
 //Obtener el nombre completo del usuario.
 //Contar cuántas vocales tiene.
 
 /* 
-//Práctica 1
+//Práctica 6
 var userName;
 userName = prompt("Por favor, ingrese su nombre.")
 console.log(userName)
 
-//Práctica 2
+//Práctica 7
 var numberCharacteres;
 numberCharacteres = userName.length;
 if (numberCharacteres < 15) {
@@ -30,7 +30,7 @@ if (numberCharacteres < 15) {
 } else {
     console.log("Tu nombre es muy largo")
 }
-//Practica 3
+//Practica 8
 var vowels
 vowels = userName.match(/[aeiou]/gi).length
 console.log(vowels)

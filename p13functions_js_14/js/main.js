@@ -1,4 +1,4 @@
-//Práctica:
+//Práctica 14:
 //Crear una función ó funciones que permitan al usuario elegir una operación básica, indicar 2 valores, y ejecutar la operación seleccionada. 
 //Imprimir el resultado
 //output: "La ${operacion} de los dos números que indicaste es: ${resultado}"

@@ -33,7 +33,7 @@ Console.log(kodersCollection)
 output "DCM-141195"
  */
 
- //TAREA
+ //Practica 19:
 //pedir al usuario la cantidad de koders a registrar
 //por cada koder, pedir nombre, apellidos, calificación en html, calificación en css, calificación en js,
 
@@ -73,7 +73,7 @@ const registerKoder = () =>{
 }
  */
 
- //Practica: Botanas.
+ //Practica 20x: Botanas.
  //Instrucciones: crear un libro de recetas de botanas, y después crear una botana por cada receta en nuestro libro
 
 function  Snack(name,flavor,snackSize){
