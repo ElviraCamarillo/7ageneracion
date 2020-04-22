@@ -1,0 +1,14 @@
+{
+  "name": "hi-word",
+  "version": "0.0.1",
+  "description": "Script say Hello",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node index"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "@Elvira",
+  "license": "ISC"
+}
