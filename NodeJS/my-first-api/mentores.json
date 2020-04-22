@@ -1,0 +1,15 @@
+{
+    "aMentors":[
+        {
+            "name" : "Charles",
+            "course": "Linux",
+            "generation":7
+            
+    },
+    {
+        "name" : "Israel",
+        "course": "Front-end",
+        "generation": 7
+    }
+]
+}
