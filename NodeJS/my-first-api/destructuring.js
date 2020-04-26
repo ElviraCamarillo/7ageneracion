@@ -56,7 +56,7 @@ console.log('MentorName: ',mentorName) //para que fucione comentar el name:Charl
 
 const koders =[ 'Mar', 'Elvira', 'Airy', 'Fer']
 
-//cost[Elementos posicioales del arrreglo] = arreglo a ser desconstruido
+//cost[Elementos posicionales del arrreglo] = arreglo a ser desconstruido
 
 const[x,y,z,a,b='extra'] = koders
 console.log('x: ', x)
